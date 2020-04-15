@@ -11,6 +11,8 @@ def lambda_handler(event, context):
     # comments
     # comments2
     # comment 3
+    # comment 4
+    # comment 5
     print(event)
     URL = "http://maps.googleapis.com/maps/api/geocode/json"
     location = event['landmark']
